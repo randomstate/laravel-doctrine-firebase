@@ -9,5 +9,9 @@
             "email": "3436576+CImrie@users.noreply.github.com"
         }
     ],
-    "require": {}
+    "require": {
+        "laravel-doctrine/orm": "^1.4",
+        "lcobucci/jwt": "^3.2",
+        "guzzlehttp/guzzle": "^6.3"
+    }
 }
