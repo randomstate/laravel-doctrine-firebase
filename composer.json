@@ -1,0 +1,13 @@
+{
+    "name": "randomstate/laravel-doctrine-firebase",
+    "description": "Firebase User Provider integration for Laravel when using Laravel-Doctrine",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Connor Imrie",
+            "email": "3436576+CImrie@users.noreply.github.com"
+        }
+    ],
+    "require": {}
+}
