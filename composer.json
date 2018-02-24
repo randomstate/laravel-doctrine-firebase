@@ -6,12 +6,22 @@
     "authors": [
         {
             "name": "Connor Imrie",
-            "email": "3436576+CImrie@users.noreply.github.com"
+            "email": "connor@randomstate.co.uk"
         }
     ],
     "require": {
         "laravel-doctrine/orm": "^1.4",
         "lcobucci/jwt": "^3.2",
         "guzzlehttp/guzzle": "^6.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "RandomState\\LaravelDoctrineFirebase\\" : "src"
+        }
+    },
+    "config": {
+        "platform": {
+            "php": "7.0.0"
+        }
     }
 }
